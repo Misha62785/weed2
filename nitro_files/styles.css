@@ -233,9 +233,10 @@ video {
 }
 .offer_section .box {
     background: url("gg66.jpg") no-repeat center center;
-    background-size: contain; /* або auto */
+    background-size: cover; /* краще ніж contain */
     height: 480px;
     position: relative;
+}
 }
 .offer_section .box .sale{
     width: 538px;
